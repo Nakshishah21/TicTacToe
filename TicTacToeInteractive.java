@@ -31,7 +31,7 @@ public class TicTacToeInteractive implements ActionListener {
             buttons[i] = new JButton();
             buttons[i].setFont(new Font("calibri", Font.BOLD, 60));
             buttons[i].addActionListener(this);
-            buttons[i].setBackground(Color.white); // Darker button background
+            buttons[i].setBackground(Color.yellow); // Darker button background
             buttons[i].setForeground(Color.red); // White text
             buttons[i].setBorder(new LineBorder(Color.pink, 2));
             panel.add(buttons[i]);
